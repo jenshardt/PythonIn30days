@@ -39,3 +39,6 @@ height = int(input("Enter height: "))
 area = 0.5 * base * height
 
 print("The area of the triangle is {0:.0f}".format(area))
+
+years = int(input("Enter number of years you have lived: "))
+print('You have lived for', years * 365 * 24 * 60 * 60, 'seconds')
